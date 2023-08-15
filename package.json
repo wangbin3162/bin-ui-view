@@ -1,0 +1,25 @@
+{
+  "name": "bin-ui-view",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A Vue 3 Component Library. bin-ui full version, Uses TypeScript, Fast",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "prettier": "^3.0.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-inspect": "^0.7.38",
+    "vue-tsc": "^1.8.5"
+  }
+}
